@@ -47,6 +47,7 @@ Visiting `k4r.vercel.app/github` redirects to my GitHub profile.
 
 ## Want to Adapt It?  
 
-Feel free to fork this repo and modify the links for your own profiles and projects!  
+Feel free to fork this repo and modify the dictonary with your keywords (endpoints) and your own profiles and projects links!
+  
 
 **Happy Redirecting! 🚀**  
