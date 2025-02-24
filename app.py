@@ -1,16 +1,20 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, redirect
 
 app = Flask(__name__)
 
 database = {
-    "github": "https://github.com/kausaraahmed",
+    "github": "https://github.com/kausar2nd",
+    "linkedin": "https://www.linkedin.com/in/kausar2nd/",
+    "portfolio": "https://kausar2nd.github.io/",
+    "alteruse": "https://alteruse.jobair-hossain.info/",
     "schedulumos": "https://cpuscheduler.vercel.app/",
-    "schedulumos-gh": "https://github.com/kausaraahmed/ScheduLumos",
+    "schedulumos-gh": "https://github.com/kausar2nd/ScheduLumos",
 }
+
 
 @app.route("/")
 def home():
-    return "Welcome to ReDirected! To know more about the project, visit: \"https://github.com/kausaraahmed/ReDirected\""
+    return 'Welcome to ReDirected! To know more about the project, visit: "https://github.com/kausar2nd/ReDirected"'
 
 
 @app.route("/<keyword>")
@@ -25,4 +29,3 @@ def redirect_to_user_url(keyword):
 
 if __name__ == "__main__":
     app.run(debug=True)
-
